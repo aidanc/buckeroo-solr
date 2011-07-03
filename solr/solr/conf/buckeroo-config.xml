@@ -10,6 +10,12 @@
        <field column="product_code" name="product_code"/>
        <field column="name" name="name"/>
        <field column="description" name="description"/>
+
+       <entity name="attribute" query="SELECT a.label, a.value FROM product pr, product_attribute pa, attribute a WHERE pr.id = '${product.id}' AND pr.id = pa.product_id AND a.id = pa.attribute_id">
+                        <field column="label" name="attr_labels" />
+                        <field column="value" name="attr_values" />
+                </entity>
+
     </entity>
   </document>
 </dataConfig>
