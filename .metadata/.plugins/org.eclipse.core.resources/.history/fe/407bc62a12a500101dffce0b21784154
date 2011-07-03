@@ -1,0 +1,15 @@
+<dataConfig>
+  <dataSource type="JdbcDataSource" 
+              driver="org.postgresql.Driver"
+              url="jdbc:postgresql://localhost/buckeroo" 
+              user="postgres" 
+              password="password"/>
+  <document name="products">
+    <entity name="product" query="select id, name, description from product">
+       <field column="id" name="solr_id"/>
+       <field column="name" name="solr_name"/>
+       <field column="desc" name="solr_desc"/>
+    </entity>
+  </document>
+</dataConfig>
+
