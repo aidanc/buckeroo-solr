@@ -343,3 +343,16 @@ Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.pa
 
 !ENTRY org.eclipse.mylyn.tasks.ui 4 0 2011-07-03 17:57:19.582
 !MESSAGE Could not load repository template extension contributed by com.springsource.sts.ide.ui with connectorKind jira
+!SESSION 2011-07-03 17:58:04.086 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2011-07-03 17:58:11.241
+!MESSAGE Could not load repository template extension contributed by com.springsource.sts.ide.ui with connectorKind jira
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2011-07-03 17:58:11.245
+!MESSAGE Could not load repository template extension contributed by com.springsource.sts.ide.ui with connectorKind jira

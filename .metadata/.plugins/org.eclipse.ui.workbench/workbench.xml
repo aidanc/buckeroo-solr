@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="59" version="2.0">
+<workbench progressCount="47" version="2.0">
 <workbenchAdvisor/>
 <window height="1150" maximized="true" width="1382" x="0" y="25">
 <fastViewData fastViewLocation="1024"/>
@@ -44,7 +44,7 @@
 <editor activePart="true" focus="true" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="schema.xml" partName="schema.xml" path="/home/aidan/workspace/buckeroo-solr/solr/solr/conf/schema.xml" title="schema.xml" tooltip="solr/solr/conf/schema.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/solr/solr/conf/schema.xml"/>
 </editor>
-<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="buckeroo-config.xml" partName="buckeroo-config.xml" path="/home/aidan/workspace/pocsolr/solr/solr/conf/buckeroo-config.xml" title="buckeroo-config.xml" tooltip="solr/solr/conf/buckeroo-config.xml" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="buckeroo-config.xml" partName="buckeroo-config.xml" path="/home/aidan/workspace/buckeroo-solr/solr/solr/conf/buckeroo-config.xml" title="buckeroo-config.xml" tooltip="solr/solr/conf/buckeroo-config.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/solr/solr/conf/buckeroo-config.xml"/>
 </editor>
 </editors>
@@ -674,6 +674,8 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/solr/solr/conf/schema.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/solr/solr/conf/buckeroo-config.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/solr/solr/conf/schema.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/solr/solr/conf/buckeroo-config.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/solr/solr/conf/schema.xml"/>
 </editors>
 <item historyLabel="Dashboard" index="0"/>
 <item historyLabel="README.txt" index="1">
@@ -705,8 +707,12 @@
 <item historyLabel="schema.xml" index="9">
 <position info="not_deleted" x="31307" y="0"/>
 </item>
-<item active="true" historyLabel="schema.xml" index="11">
+<item historyLabel="schema.xml" index="11">
 <position info="not_deleted" x="2236" y="0"/>
+</item>
+<item historyLabel="buckeroo-config.xml" index="12"/>
+<item active="true" historyLabel="schema.xml" index="13">
+<position info="not_deleted" x="1306" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
