@@ -324,3 +324,22 @@ Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.pa
 
 !ENTRY org.eclipse.mylyn.tasks.ui 4 0 2011-07-03 15:21:03.060
 !MESSAGE Could not load repository template extension contributed by com.springsource.sts.ide.ui with connectorKind jira
+!SESSION 2011-07-03 17:57:13.110 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2011-07-03 17:57:14.434
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2011-07-03 17:57:17.226
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2011-07-03 17:57:19.581
+!MESSAGE Could not load repository template extension contributed by com.springsource.sts.ide.ui with connectorKind jira
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2011-07-03 17:57:19.582
+!MESSAGE Could not load repository template extension contributed by com.springsource.sts.ide.ui with connectorKind jira

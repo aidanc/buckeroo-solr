@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="53" version="2.0">
+<workbench progressCount="59" version="2.0">
 <workbenchAdvisor/>
 <window height="1150" maximized="true" width="1382" x="0" y="25">
 <fastViewData fastViewLocation="1024"/>
@@ -41,7 +41,7 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="schema.xml" partName="schema.xml" path="/home/aidan/workspace/pocsolr/solr/solr/conf/schema.xml" title="schema.xml" tooltip="solr/solr/conf/schema.xml" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="schema.xml" partName="schema.xml" path="/home/aidan/workspace/buckeroo-solr/solr/solr/conf/schema.xml" title="schema.xml" tooltip="solr/solr/conf/schema.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/solr/solr/conf/schema.xml"/>
 </editor>
 <editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="buckeroo-config.xml" partName="buckeroo-config.xml" path="/home/aidan/workspace/pocsolr/solr/solr/conf/buckeroo-config.xml" title="buckeroo-config.xml" tooltip="solr/solr/conf/buckeroo-config.xml" workbook="DefaultEditorWorkbook">
@@ -120,7 +120,7 @@
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.wst.server.ui.ServersView" partName="Servers"/>
 </views>
-<perspectives activePart="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -714,9 +714,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="right"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>

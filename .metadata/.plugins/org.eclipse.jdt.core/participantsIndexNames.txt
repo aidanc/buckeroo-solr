@@ -1,7 +1,13 @@
 INDEX VERSION 1.126
-/home/aidan/workspace/pocsolr/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3682473936.index
+/home/aidan/workspace/buckeroo-solr/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3682473936.index
+/solr
+/home/aidan/workspace/buckeroo-solr/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/48039928.index
+/solr
+/home/aidan/workspace/buckeroo-solr/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3285628648.index
+/solr
+/home/aidan/workspace/pocsolr/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/48039928.index
 /solr
 /home/aidan/workspace/pocsolr/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3285628648.index
 /solr
-/home/aidan/workspace/pocsolr/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/48039928.index
+/home/aidan/workspace/pocsolr/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3682473936.index
 /solr
