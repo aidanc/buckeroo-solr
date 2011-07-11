@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<schema name="btest">
+<schema name="buckeroo">
 
 	<types>
 		<!-- field type definitions. The "name" attribute is just a label to be 
@@ -362,10 +362,10 @@
 	</types>
 
 	<fields>
-		<field name="id" type="string" indexed="true" stored="true" required="true" />
-		<field name="product_code" type="string" indexed="true" stored="true" />
-		<field name="name" type="text" indexed="true" stored="true" />
-		<field name="description" type="text" indexed="true" stored="true" />
+		<field name="id" type="string" indexed="true" stored="true" required="true" multiValued="false" />
+		<field name="product_code" type="string" indexed="true" stored="true" multiValued="false" />
+		<field name="name" type="text" indexed="true" stored="true" multiValued="false" />
+		<field name="description" type="text" indexed="true" stored="true" multiValued="false" />
 
 		<field name="attr_labels" type="text" indexed="true" stored="true" multiValued="true" />
 		<field name="attr_values" type="text" indexed="true" stored="true" multiValued="true" />
