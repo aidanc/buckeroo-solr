@@ -2,3 +2,6 @@
 #Eclipse metadata
 .metadata
 
+solr/solr/conf/dataimport.properties
+solr/solr/data
+
