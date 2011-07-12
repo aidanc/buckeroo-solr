@@ -4,19 +4,28 @@
               url="jdbc:postgresql://localhost/buckeroo" 
               user="postgres" 
               password="password"/>
-  <document name="products">
-    <entity name="product" query="select id, product_code, name, description from product">
+              
+  <document name="stocked_products">
+
+    <entity name="stocked_product" query="select id, product_id, store_id, price from stocked_product">
        <field column="id" name="id"/>
-       <field column="product_code" name="product_code"/>
-       <field column="name" name="name"/>
-       <field column="description" name="description"/>
+       <field column="price" name="price"/>
+       
+       <entity name="product" query="SELECT id, product_code, name, description FROM product WHERE id = ${stocked_product.product_id}">
+	       <field column="product_code" name="product_code"/>
+	       <field column="name" name="name"/>
+	       <field column="description" name="description"/>
+       </entity>
 
-       <entity name="attribute" query="SELECT a.label, a.value FROM product pr, product_attribute pa, attribute a WHERE pr.id = '${product.id}' AND pr.id = pa.product_id AND a.id = pa.attribute_id">
-                        <field column="label" name="attr_labels" />
-                        <field column="value" name="attr_values" />
-                </entity>
-
+       <entity name="store" query="SELECT id, label FROM store WHERE id = ${stocked_product.store_id}">
+		<field column="label" name="store_name"/>
+       </entity>
+       
+       <entity name="attribute" query="SELECT (a.label || '|' || a.value) as attr_kv FROM stocked_product sp, stocked_product_attribute spa, attribute a WHERE sp.id = ${stocked_product.id} AND sp.id = spa.stocked_product_id AND a.id = spa.attribute_id">
+			<field column="attr_kv" name="attr_kv" />
+       </entity>
     </entity>
+    
   </document>
 </dataConfig>
 
