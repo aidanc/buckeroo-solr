@@ -11,10 +11,11 @@
        <field column="id" name="id"/>
        <field column="price" name="price"/>
        
-       <entity name="product" query="SELECT id, product_code, name, description FROM product WHERE id = ${stocked_product.product_id}">
+       <entity name="product" query="SELECT id, product_code, name, description, image_url FROM product WHERE id = ${stocked_product.product_id}">
 	       <field column="product_code" name="product_code"/>
 	       <field column="name" name="name"/>
 	       <field column="description" name="description"/>
+	       <field column="image_url" name="image_url"/>
        </entity>
 
        <entity name="store" query="SELECT id, label FROM store WHERE id = ${stocked_product.store_id}">
