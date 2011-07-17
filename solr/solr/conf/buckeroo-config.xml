@@ -7,6 +7,9 @@
               
   <document name="stocked_products">
 
+	<!-- Note: There is a lot of room for optimisation of these queries -->
+	<!-- For now I have just kept things simple -->
+
     <entity name="stocked_product" query="select id, product_id, store_id, price from stocked_product">
        <field column="id" name="id"/>
        <field column="price" name="price"/>
@@ -24,6 +27,11 @@
        
        <entity name="attribute" query="SELECT (a.label || '|' || a.value) as attr_kv FROM stocked_product sp, stocked_product_attribute spa, attribute a WHERE sp.id = ${stocked_product.id} AND sp.id = spa.stocked_product_id AND a.id = spa.attribute_id">
 			<field column="attr_kv" name="attr_kv" />
+       </entity>
+       
+       <entity name="location" query="SELECT sp.id, gc.latitude, gc.longitude FROM stocked_product sp, store s, geo_coordinate gc WHERE sp.id = ${stocked_product.id} AND sp.store_id = s.id AND s.geo_coordinate_id = gc.id">
+			<field column="latitude" name="location_0_coordinate" />
+			<field column="longitude" name="location_1_coordinate" />
        </entity>
     </entity>
     
